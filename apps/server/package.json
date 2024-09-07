@@ -44,6 +44,6 @@
     "prisma-kysely": "^1.8.0",
     "tsx": "^4.0.0",
     "typescript": "^5.3.3",
-    "vitest": "^1.4.0"
+    "vitest": "^2.0.0"
   }
 }
