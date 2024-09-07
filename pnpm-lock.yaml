@@ -101,7 +101,7 @@ importers:
         version: 5.1.2(next@14.2.1)(react-dom@18.2.0)(react@18.2.0)
       '@hookform/resolvers':
         specifier: ^3.3.4
-        version: 3.3.4(react-hook-form@7.51.3)
+        version: 3.9.0(react-hook-form@7.51.3)
       '@lr/server':
         specifier: workspace:*
         version: link:../server
@@ -206,7 +206,7 @@ importers:
     dependencies:
       '@hookform/resolvers':
         specifier: ^3.3.4
-        version: 3.3.4(react-hook-form@7.51.3)
+        version: 3.9.0(react-hook-form@7.51.3)
       '@radix-ui/react-alert-dialog':
         specifier: ^1.0.5
         version: 1.0.5(@types/react-dom@18.2.25)(@types/react@18.2.78)(react-dom@18.3.1)(react@18.2.0)
@@ -1422,8 +1422,8 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@hookform/resolvers@3.3.4(react-hook-form@7.51.3):
-    resolution: {integrity: sha512-o5cgpGOuJYrd+iMKvkttOclgwRW86EsWJZZRC23prf0uU2i48Htq4PuT73AVb9ionFyZrwYEITuOFGF+BydEtQ==}
+  /@hookform/resolvers@3.9.0(react-hook-form@7.51.3):
+    resolution: {integrity: sha512-bU0Gr4EepJ/EQsH/IwEzYLsT/PEj5C0ynLQ4m+GSHS+xKH4TfSelhluTgOaoc4kA5s7eCsQbM4wvZLzELmWzUg==}
     peerDependencies:
       react-hook-form: ^7.0.0
     dependencies:
