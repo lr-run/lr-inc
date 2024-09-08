@@ -24,8 +24,8 @@ importers:
         specifier: ^0.38.6
         version: 0.38.13(react@18.3.1)
       '@hono/clerk-auth':
-        specifier: ^1.0.1
-        version: 1.0.3(@clerk/backend@0.38.13)(hono@4.5.11)
+        specifier: ^2.0.0
+        version: 2.0.0(@clerk/backend@0.38.13)(hono@4.5.11)
       '@hono/node-server':
         specifier: ^1.9.0
         version: 1.12.2(hono@4.5.11)
@@ -1101,10 +1101,11 @@ packages:
     resolution: {integrity: sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==}
     dev: false
 
-  /@hono/clerk-auth@1.0.3(@clerk/backend@0.38.13)(hono@4.5.11):
-    resolution: {integrity: sha512-D7iLm53jS9ykyAJ5e3QzmE56p1PHJZGM9wjv3wtBdBsczQvlN9a5St2uQ/UVeaDCnj9nF5rpZ7pohQRq53zhoQ==}
+  /@hono/clerk-auth@2.0.0(@clerk/backend@0.38.13)(hono@4.5.11):
+    resolution: {integrity: sha512-ad+U8jDlBPgXBTv8BRnPrSFC/uX8U0ojiCR77I3WWHm5I9L3/bHsZpQ2lgvLTV3YbJyVmAdKJArEAQiPjodGdA==}
+    engines: {node: '>=16.x.x'}
     peerDependencies:
-      '@clerk/backend': '>=0.30.0 <1'
+      '@clerk/backend': ^1.0.0
       hono: '>=3.*'
     dependencies:
       '@clerk/backend': 0.38.13(react@18.3.1)
