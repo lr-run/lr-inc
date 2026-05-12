@@ -45,8 +45,8 @@ importers:
         specifier: ^3.16.1
         version: 3.22.8(hono@4.5.11)(typescript@5.5.4)
       kysely:
-        specifier: ^0.27.3
-        version: 0.27.4
+        specifier: ^0.28.0
+        version: 0.28.17
       nanoid:
         specifier: ^3.3.7
         version: 3.3.7
@@ -5342,9 +5342,9 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /kysely@0.27.4:
-    resolution: {integrity: sha512-dyNKv2KRvYOQPLCAOCjjQuCk4YFd33BvGdf/o5bC7FiW+BB6snA81Zt+2wT9QDFzKqxKa5rrOmvlK/anehCcgA==}
-    engines: {node: '>=14.0.0'}
+  /kysely@0.28.17:
+    resolution: {integrity: sha512-nbD8lB9EB3wNdMhOCdx5Li8DxnLbvKByylRLcJ1h+4SkrowVeECAyZlyiKMThF7xFdRz0jSQ2MoJr+wXux2y0Q==}
+    engines: {node: '>=20.0.0'}
     dev: false
 
   /language-subtag-registry@0.3.23:
